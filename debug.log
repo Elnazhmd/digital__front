@@ -1,0 +1,3 @@
+[1217/210452.209:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamiyor. (0x3)
+[1221/195207.241:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamiyor. (0x3)
+[1222/134249.169:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamiyor. (0x3)
