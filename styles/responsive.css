@@ -33,7 +33,7 @@
   }
 
   .hero_main {
-    min-height: 100vh;
+    height: 100vh;
     padding: 50px 0;
   }
 
@@ -117,9 +117,6 @@
     padding-top: 0;
     margin-top: 0;
   }
-  .hero_main {
-    min-height: 100vh;
-  }
 }
 /* very small screens like new samsung galaxy fold */
 /* very small screens like new samsung galaxy fold */
@@ -144,5 +141,10 @@
   }
   .sidenav a {
     font-size: 18px;
+  }
+}
+@media all and (orientation: landscape) {
+  .hero_main {
+    min-height: 100vh;
   }
 }
