@@ -143,8 +143,12 @@
     font-size: 18px;
   }
 }
-@media all and (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 1023px) {
   .hero_main {
     min-height: 100vh;
+    height: auto;
+  }
+  .hero_img_holder > figure > img {
+    width: 350px;
   }
 }
